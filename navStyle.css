@@ -1,14 +1,71 @@
-ul{
+
+
+#topNav{
 padding: 5px;
+height: 50px;
+margin: 0px;
+background-color :#229954;
+}
+
+title{
 
 }
 
-li{
-  display:inline;
+#ench {
+  padding-left: 175px;
+}
+#topNav li {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline;
+  float: right;
   text-decoration: none;
 }
+#topNav li hover{
+  background-color: red;
+}
 
-a{
+#topNav li a{
+text-decoration: none;
+font-family: monospace;
+font-size: 20px;
+color: black;
+}
+a: hover{
+  color: blue;
+}
+#choice3 li{
+  text-decoration: none;
+}
+#menuNav {
+  height: 500%;
+  padding-left: 15px;
+  width: 150px;
+  margin: 0px;
+  border-right: 2px solid green;
+  background-color: #C70039 ;
+  float: left;
+  z-index:-999;
+  list-style-type: none;
+}
+#mi{
+  text-decoration: underline;
+}
+#menuNav li{
+  padding-top: 5px;
 
+  text-decoration: none;
+  font-family: sans-serif;
+list-style: none;
+}
+#inside {
+  font-family:fantasy-;
 
+}
+#choice3{
+  list-style-type: none;
+}
+
+#contactUS{
+  font-color: #808B96;
 }
